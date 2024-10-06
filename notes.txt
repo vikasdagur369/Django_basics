@@ -1,0 +1,9 @@
+1. install python
+
+2. install Django -> py -m pip install Django
+
+3. django-admin --> returns all subcommands
+
+4. django-admin startproject project_name  => it will start project
+
+5. 
