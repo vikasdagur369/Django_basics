@@ -6,4 +6,17 @@
 
 4. django-admin startproject project_name  => it will start project
 
-5. 
+5. manage.py => to give commands related to our project
+
+5. __init__.py => an empty file that tells python that this directory should be considered a python package.
+
+6. urls.py => contains all urls relalted to our project
+
+7.python manage.py runserver => to run the server
+
+8. python manage.py runserver 1313 => now server will run on port 1313
+
+------------ Apps in Django -----------------
+ har ek feature ke liye , ek new feature bnate hai taki vo easily debug ho ske and reusable ho ske.
+
+apps create karne ke liye :-  python manage.py startapp app_name
