@@ -20,3 +20,24 @@
  har ek feature ke liye , ek new feature bnate hai taki vo easily debug ho ske and reusable ho ske.
 
 apps create karne ke liye :-  python manage.py startapp app_name
+
+----------URLs & Views-------------------------------
+
+basically URLs are routes and views are middlewares
+
+views ko function ya class se bna skte hai.
+
+syntax of views using function :
+
+        def fun_name(request):
+            return HttpRequest("hello world")
+
+-> ese to hum views bna skte hai jisko app ke andar jkr views.py file me bnana hai.
+
+-> url bnane ke liye mukhya folder me jkr urls.py file me jana hai (specific app ke andar uska personal urls.py file bnake routes bnaye ja skte hai), vha views ko import karna hai. then 
+    url bnana hai , jiska syntax hai:-
+            urlpatterns = [
+                path('/profile',views.middlewares_name),
+            ]
+
+
